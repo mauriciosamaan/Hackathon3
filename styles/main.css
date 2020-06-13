@@ -4,7 +4,7 @@
     margin:0;
     padding:0;
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: arial;
 }
 
 /* Profile */
@@ -17,8 +17,8 @@
 
 .profile-title {
     position:absolute;
-    top:45px;
-    left:505px;
+    top:48px;
+    left:504px;
     font-size: 64px;
     font-weight: bold;
 }
@@ -40,3 +40,50 @@
     padding-left:16px;
 }
 
+/* Sobre-Mi */
+
+.section-about {
+  width:960px;
+  height:424px;
+  background:#7299fe;
+  position:relative;
+  top:-3px;
+  left:195px;
+}
+
+.about-title {
+  font-size:36px;
+  position:relative;
+  top:27px;
+  left:408px;
+  color:#1D06A7;
+  font-weight: bold;
+}
+
+.about-text {
+  position:relative;
+  top:65px;
+  left:45px;
+  line-height:24px;
+  width:872px;
+  color:white;
+  text-align:justify;
+  font-size:14px;
+}
+
+.about-link {
+  position:relative;
+  top:105px ;
+  left:45px;
+  width:200px;
+  height:62px;
+  background:#D16FFF;
+  color:white;
+  border-radius:20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 18px 56px;
+  text-align:center;
+  text-decoration:none;
+  font-weight: bold;
+  font-size:22px;
+}
