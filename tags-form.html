@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto-2</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="#">
+        <!-- Datos-Basicos -->
+        <fieldset>
+            <legend>Nombre</legend>
+            <input name="firstname" type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Apellido</legend>
+            <input name="lastname" type="text">
+        </fieldset>
+        <br>
+        <label for="email">Email</label>
+        <input name="email" id="email" type="email">
+        <br>
+        <p>Hobbies</p>
+        <select name="hobbies" id="hobbies">
+            <option value="">Elige tu hobbie</option>
+            <option value="1">Futbol</option>
+            <option value="2">Tennis</option>
+            <option value="3">Hockey</option>
+        </select>
+        <br>
+        <br>
+        <label for="comments">Comentarios</label>
+        <br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <!-- Barra-Progreso -->
+        <progress value=75 max=100></progress>
+        <br>
+        <br>
+        <!-- Botones -->
+        <button>Enviar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+</body>
+</html>
