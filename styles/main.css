@@ -1,89 +1,510 @@
 /* Globals */
 
 * {
-    margin:0;
-    padding:0;
-    font-style: normal;
-    font-family: arial;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: arial;
 }
 
 /* Profile */
 
 .section-profile {
-    position:relative;
-    text-align:center;
-    color:white
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 .profile-title {
-    position:absolute;
-    top:48px;
-    left:504px;
-    font-size: 64px;
-    font-weight: bold;
+  position: absolute;
+  top: 48px;
+  left: 504px;
+  font-size: 64px;
+  font-weight: bold;
 }
 
 .profile-description {
-    position: absolute;
-    font-weight: bold;
-    font-size:36px;
-    line-height:42px;
-    color:white;
-    background:rgba(114,153,254,0.5);
-    width:349px;
-    height:101px;
-    top:270px;
-    left:246.5px;
-    border-radius:10px;
-    padding-top:16px;
-    text-align:justify;
-    padding-left:16px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: white;
+  background: rgba(114, 153, 254, 0.5);
+  width: 349px;
+  height: 101px;
+  top: 270px;
+  left: 246.5px;
+  border-radius: 10px;
+  padding-top: 16px;
+  text-align: justify;
+  padding-left: 16px;
 }
 
 /* Sobre-Mi */
 
 .section-about {
-  width:960px;
-  height:424px;
-  background:#7299fe;
-  position:relative;
-  top:-3px;
-  left:195px;
+  width: 960px;
+  height: 424px;
+  background: #7299fe;
+  position: relative;
+  top: -3px;
+  left: 195px;
 }
 
 .about-title {
-  font-size:36px;
-  position:relative;
-  top:27px;
-  left:408px;
-  color:#1D06A7;
+  font-size: 36px;
+  position: relative;
+  top: 27px;
+  left: 408px;
+  color: #1d06a7;
   font-weight: bold;
 }
 
 .about-text {
-  position:relative;
-  top:65px;
-  left:45px;
-  line-height:24px;
-  width:872px;
-  color:white;
-  text-align:justify;
-  font-size:14px;
+  position: relative;
+  top: 65px;
+  left: 45px;
+  line-height: 24px;
+  width: 872px;
+  color: white;
+  text-align: justify;
+  font-size: 14px;
 }
 
 .about-link {
-  position:relative;
-  top:105px ;
-  left:45px;
-  width:200px;
-  height:62px;
-  background:#D16FFF;
-  color:white;
-  border-radius:20px;
+  position: relative;
+  top: 105px;
+  left: 45px;
+  width: 200px;
+  height: 62px;
+  background: #d16fff;
+  color: white;
+  border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 18px 56px;
-  text-align:center;
-  text-decoration:none;
+  text-align: center;
+  text-decoration: none;
   font-weight: bold;
-  font-size:22px;
+  font-size: 22px;
+}
+
+/* Mis-Skills */
+
+.section-skills {
+  position: relative;
+  width: 960px;
+  height: 424px;
+  left: 195px;
+  background: #9122ff;
+  top: -3px;
+}
+
+.skills-title {
+  position: relative;
+  font-size: 36px;
+  color: #26cc4b;
+  top: 27px;
+  left: 408px;
+  font-weight: bold;
+}
+
+/* Skills-HTML */
+.main-div-HTML {
+  width: 403px;
+  height: 50px;
+  font-size: 18px;
+  position: relative;
+  top: 50px;
+  color: white;
+  left: 69px;
+}
+
+.rectangle-1-html {
+  position: relative;
+  width: 100%;
+  background: white;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.rectangle-2-html {
+  position: relative;
+  width: 46%;
+  height: 20px;
+  background: #57eff9;
+  border-radius: 20px;
+}
+
+/* Skills-CSS */
+
+.main-div-CSS {
+  width: 403px;
+  height: 50px;
+  font-size: 18px;
+  position: relative;
+  color: white;
+  left: 500px;
+}
+
+.rectangle-1-CSS {
+  position: relative;
+  width: 100%;
+  background: white;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.rectangle-2-CSS {
+  position: relative;
+  width: 46%;
+  height: 20px;
+  background: #57eff9;
+  border-radius: 20px;
+}
+
+/* Skills-Javascript */
+
+.main-div-Javascript {
+  width: 403px;
+  height: 50px;
+  font-size: 18px;
+  position: relative;
+  top: 50px;
+  color: white;
+  left: 69px;
+}
+
+.rectangle-1-Javascript {
+  position: relative;
+  width: 100%;
+  background: white;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.rectangle-2-Javascript {
+  position: relative;
+  width: 46%;
+  height: 20px;
+  background: #57eff9;
+  border-radius: 20px;
+}
+
+/* Skills-Vue */
+
+.main-div-Vue {
+  width: 403px;
+  height: 50px;
+  font-size: 18px;
+  position: relative;
+  color: white;
+  left: 500px;
+}
+
+.rectangle-1-Vue {
+  position: relative;
+  width: 100%;
+  background: white;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.rectangle-2-Vue {
+  position: relative;
+  width: 46%;
+  height: 20px;
+  background: #57eff9;
+  border-radius: 20px;
+}
+
+/* Skills-Flexbox */
+
+.main-div-Flexbox {
+  width: 403px;
+  height: 50px;
+  font-size: 18px;
+  position: relative;
+  top: 50px;
+  color: white;
+  left: 69px;
+}
+
+.rectangle-1-Flexbox {
+  position: relative;
+  width: 100%;
+  background: white;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.rectangle-2-Flexbox {
+  position: relative;
+  width: 46%;
+  height: 20px;
+  background: #57eff9;
+  border-radius: 20px;
+}
+
+/* Skills-CSS-Grid */
+
+.main-div-CSS-Grid {
+  width: 403px;
+  height: 50px;
+  font-size: 18px;
+  position: relative;
+  color: white;
+  left: 500px;
+}
+
+.rectangle-1-CSS-Grid {
+  position: relative;
+  width: 100%;
+  background: white;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.rectangle-2-CSS-Grid {
+  position: relative;
+  width: 46%;
+  height: 20px;
+  background: #57eff9;
+  border-radius: 20px;
+}
+
+/* Portafolio */
+
+.section-portfolio {
+  background: #ffd233;
+  position: relative;
+  top: -3px;
+  left: 195px;
+  width: 960px;
+  height: 424px;
+}
+
+.portfolio-title {
+  font-size: 36px;
+  position: relative;
+  top: 27px;
+  left: 408px;
+  color: #00ad84;
+  font-weight: bold;
+}
+
+img[src="./images/img-1.png"] {
+  position: relative;
+  top: 100px;
+  left: 140px;
+}
+
+img[src="./images/img-2.png"] {
+  position: relative;
+  top: 3px;
+  left: 300px;
+}
+
+img[src="./images/img-3.png"] {
+  position: relative;
+  top: -92px;
+  left: 460px;
+}
+
+img[src="./images/img-4.png"] {
+  position: relative;
+  top: -187px;
+  left: 630px;
+}
+
+img[src="./images/img-5.png"] {
+  position: relative;
+  top: -150px;
+  left: 140px;
+}
+
+img[src="./images/img-6.png"] {
+  position: relative;
+  top:-245px;
+  left: 300px;
+}
+
+img[src="./images/img-7.png"] {
+  position: relative;
+  top: -340px;
+  left: 460px;
+}
+
+img[src="./images/img-8.png"] {
+  position: relative;
+  top: -435px;
+  left: 630px;
+}
+
+/* Clientes */
+
+.section-clients {
+  position:relative;
+  top:-3px;
+  left:195px;
+  width:960px;
+  height:258px;
+  background: #3F4E62;
+}
+
+.clients-title {
+  position: relative;
+  font-size: 36px;
+  color: #ADFF28;
+  top: 27px;
+  left: 408px;
+  font-weight: bold;
+}
+
+img[src="./images/logo-1.png"] {
+  position:relative;
+  width:178px;
+  height:69px;
+  left:70px;
+  top:60px;
+}
+
+img[src="./images/logo-2.png"] {
+  position:relative;
+  width:202px;
+  height:54px;
+  left:270px;
+  top:0px;
+}
+
+img[src="./images/logo-3.png"] {
+  position:relative;
+  width:178px;
+  height:69px;
+  left:500px;
+  top:-70px;
+}
+
+img[src="./images/logo-4.png"] {
+  position:relative;
+  width:202px;
+  height:54px;
+  left:710px;
+  top:-130px;
+}
+
+/* Contacto */
+
+.section-contact {
+  position:relative;
+  top:-3px;
+  left:195px;
+  width:960px;
+  height: 578px;
+  background: #1687A0;
+}
+
+.contact-title {
+  position: relative;
+  font-size: 36px;
+  color: #FF1B1B;
+  top: 27px;
+  left: 408px;
+  font-weight: bold;
+}
+
+input[placeholder="Nombre"] {
+  width:363px;
+  height:59px;
+  position:relative;
+  top:70px;
+  left:90px;
+  border: 1px solid #BFBFBF;
+  background:white;
+  font-size:14px;
+  text-indent: 20px;
+  outline:none;
+}
+
+input[placeholder="Apellido"] {
+  width:363px;
+  height:59px;
+  position:relative;
+  top:70px;
+  left:120px;
+  border: 1px solid #BFBFBF;
+  background:white;
+  font-size:14px;
+  text-indent: 20px;
+  outline:none;
+}
+
+input[placeholder="Email"] {
+  width:363px;
+  height:59px;
+  position:relative;
+  top:100px;
+  left:90px;
+  border: 1px solid #BFBFBF;
+  background:white;
+  font-size:14px;
+  text-indent: 20px;
+  outline:none;
+}
+
+input[placeholder="Telefono"] {
+  width:363px;
+  height:59px;
+  position:relative;
+  top:100px;
+  left:120px;
+  border: 1px solid #BFBFBF;
+  background:white;
+  font-size:14px;
+  text-indent: 20px;
+  outline:none;
+}
+
+textarea[placeholder="Descripcion"] {
+  width:759px;
+  height:112px;
+  position:relative;
+  top:130px;
+  left:90px;
+  border: 1px solid #BFBFBF;
+  outline:none;
+  text-indent: 20px;
+  background:white;
+  font-size:14px;
+}
+
+button {
+  background:#233451;
+  width:157px;
+  height:56px;
+  font-size:18px;
+  top:230px;
+  left:-380px;
+  position:relative;
+}
+
+input:invalid:focus {
+  background:red;
+}
+
+input:valid {
+  background:green;
+}
+
+input:focus {
+  border:white;
+}
+
+textarea:valid {
+  background:green;
+  color:black;
+}
+
+textarea:invalid {
+  background:red;
+  color:white;
 }

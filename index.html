@@ -36,108 +36,109 @@
         <a class="about-link" href="#">Ver CV</a>
       </section>
       <!-- Mis-Skills -->
-      <section>
-          <h2>Mis Skills</h2>
-      <div>
+      <section class="section-skills">
+          <h2 class="skills-title">Mis Skills</h2>
+      <div class="main-div-HTML">
           <div>
               <h3>HTML</h3>
-              <div>
-                  <div></div>
+              <div class="rectangle-1-html">
+                  <div class="rectangle-2-html"></div>
               </div>
           </div>
       </div>
-      <div>
+      <div class="main-div-CSS">
         <div>
             <h3>CSS</h3>
-            <div>
-                <div></div>
+            <div class="rectangle-1-CSS">
+                <div class="rectangle-2-CSS"></div>
             </div>
         </div>
     </div>
-    <div>
+    <div class="main-div-Javascript">
         <div>
             <h3>Javascript</h3>
-            <div>
-                <div></div>
+            <div class="rectangle-1-Javascript">
+                <div class="rectangle-2-Javascript"></div>
             </div>
         </div>
     </div>
-    <div>
+    <div class="main-div-Vue">
         <div>
             <h3>Vue</h3>
-            <div>
-                <div></div>
+            <div class="rectangle-1-Vue">
+                <div class="rectangle-2-Vue"></div>
             </div>
         </div>
     </div>
-    <div>
+    <div class="main-div-Flexbox">
         <div>
             <h3>Flexbox</h3>
-            <div>
-                <div></div>
+            <div class="rectangle-1-Flexbox">
+                <div class="rectangle-2-Flexbox"></div>
             </div>
         </div>
     </div>
-    <div>
+    <div class="main-div-CSS-Grid">
         <div>
             <h3>CSS Grid</h3>
-            <div>
-                <div></div>
+            <div class="rectangle-1-CSS-Grid">
+                <div class="rectangle-2-CSS-Grid"></div>
             </div>
         </div>
     </div>
       </section>
       <!-- Portafolio -->
-      <section>
-          <h2>Portafolio</h2>
+      <section class="section-portfolio">
+          <h2 class="portfolio-title">Portafolio</h2>
       <figure>
-        <img src="./images/scn-1.png" alt="Scn-1" />
+        <img src="./images/img-1.png" alt="img-1" />
       </figure>
       <figure>
-        <img src="./images/scn-1.png" alt="Scn-1" />
+        <img src="./images/img-2.png" alt="img-2" />
       </figure>
       <figure>
-        <img src="./images/scn-1.png" alt="Scn-1" />
+        <img src="./images/img-3.png" alt="img-3" />
       </figure>
       <figure>
-        <img src="./images/scn-1.png" alt="Scn-1" />
+        <img src="./images/img-4.png" alt="img-4" />
       </figure>
       <figure>
-        <img src="./images/scn-1.png" alt="Scn-1" />
+        <img src="./images/img-5.png" alt="img-5" />
       </figure>
       <figure>
-        <img src="./images/scn-1.png" alt="Scn-1" />
+        <img src="./images/img-6.png" alt="img-6" />
       </figure>
       <figure>
-        <img src="./images/scn-1.png" alt="Scn-1" />
+        <img src="./images/img-7.png" alt="img-7" />
       </figure>
       <figure>
-        <img src="./images/scn-1.png" alt="Scn-1" />
+        <img src="./images/img-8.png" alt="img-8" />
       </figure>
     </section>
       <!-- Clientes -->
-      <section>
-          <h2>Clientes</h2>
+      <section class="section-clients">
+          <h2 class="clients-title">Clientes</h2>
       <figure>
         <img src="./images/logo-1.png" alt="logo-1" />
       </figure>
       <figure>
-        <img src="./images/logo-1.png" alt="logo-1" />
+        <img src="./images/logo-2.png" alt="logo-2" />
       </figure>
       <figure>
-        <img src="./images/logo-1.png" alt="logo-1" />
+        <img src="./images/logo-3.png" alt="logo-3" />
       </figure>
       <figure>
-        <img src="./images/logo-1.png" alt="logo-1" />
+        <img src="./images/logo-4.png" alt="logo-4" />
       </figure>
     </section>
       <!-- Contacto -->
-      <form action="#">
-        <input type="text" placeholder="Nombre" />
-        <input type="text" placeholder="Apellido" /><br />
-        <input type="text" placeholder="Email" />
-        <input type="text" placeholder="Telefono" /><br />
-        <input type="text" placeholder="Descripcion"></textarea><br />
+      <form class="section-contact" action="#">
+        <h2 class="contact-title">Contacto</h2>
+        <input type="text" placeholder="Nombre" required pattern="[A-Za-z]+"/>
+        <input type="text" placeholder="Apellido" required pattern="[A-Za-z]+"/><br />
+        <input type="email" placeholder="Email" required/>
+        <input type="text" placeholder="Telefono" required pattern="[0-9]{9}"/><br />
+        <textarea name="description" cols="30" rows="10" placeholder="Descripcion" required></textarea>
         <button type="submit">Enviar</button>
       </form>
     </main>
