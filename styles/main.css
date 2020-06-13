@@ -1,0 +1,42 @@
+/* Globals */
+
+* {
+    margin:0;
+    padding:0;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Profile */
+
+.section-profile {
+    position:relative;
+    text-align:center;
+    color:white
+}
+
+.profile-title {
+    position:absolute;
+    top:25px;
+    left:544.5px;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.profile-description {
+    position: absolute;
+    font-weight: bold;
+    font-size:36px;
+    line-height:42px;
+    color:white;
+    background:rgba(114,153,254,0.5);
+    width:349px;
+    height:101px;
+    top:270px;
+    left:246.5px;
+    border-radius:10px;
+    padding-top:16px;
+    text-align:justify;
+    padding-left:16px;
+}
+
