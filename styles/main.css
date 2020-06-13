@@ -489,6 +489,7 @@ button {
 
 input:invalid:focus {
   background:red;
+  color:black;
 }
 
 input:valid {
@@ -504,7 +505,7 @@ textarea:valid {
   color:black;
 }
 
-textarea:invalid {
+textarea:invalid:focus {
   background:red;
-  color:white;
+  color:black;
 }
