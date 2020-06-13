@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-size:35px;
+            text-align:center;
+        }
+        form {
+            border:11px solid lightblue;
+            font-size:18px;
+        }
+        input:focus {
+            background:lightblue;
+        }
+        input {
+            padding:5px;
+            position:absolute;
+            left:100px;
+        }
+        button {
+            font-size:20px;
+            position:relative;
+            left:100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="#">
+        <label>
+            <br>
+            Nombre
+            <input type="text" name="firstname" pattern="[A-Za-z]+" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            Apellido
+            <input type="text" name="lastname" pattern="[A-Za-z]+" required>
+        </label> 
+        <br>
+        <br>
+        <label>
+            Edad
+            <input type="number" name="email" min="18" max="80" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            DNI
+            <input type="text" name="DNI" pattern="[A-Za-z0-9]{8,}" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            Email
+            <input type="email" name="email" required>
+        </label>
+        <br>
+        <br>
+        <br>
+        <button>Enviar</button>
+        <br>
+        <br>
+    </form>
+</body>
+</html>
